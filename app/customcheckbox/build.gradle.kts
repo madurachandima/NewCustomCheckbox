@@ -52,7 +52,7 @@ afterEvaluate {
     publishing {
         publications {
             register<MavenPublication>("release") {
-                groupId = "com.github.philipplackner"
+                groupId = "com.github.madurachandima"
                 artifactId = "customcheckbox"
                 version = "1.0"
                 afterEvaluate {
